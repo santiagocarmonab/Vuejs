@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lifeCycle</title>
+</head>
+<body>
+    <div class="container mt-5" id="app">
+        <h3>{{saludo}}</h3>
+        <button @click="saludo = 'el saludo ha cambiado'">cambiar</button>
+        <button @click="destruir()"> destuir</button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="lifec.js"></script>
+</body>
+</html>
